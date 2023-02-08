@@ -1,5 +1,7 @@
 # OOP_assignment2
 
+Part 1:
+
 This Java code contains three methods for counting the total number of lines in a group of text files.
 
 createTextFiles - This method creates n number of text files with a random number of lines between 0 and a specified bound. The seed value is used to initialize a random number generator for generating the number of lines for each file. The names of the created files are stored in an array and returned.
@@ -9,6 +11,8 @@ getNumOfLines - This method uses a sequential approach to count the total number
 getNumOfLinesThreads - This method uses multiple threads to count the total number of lines in a group of text files. It starts a separate thread for each file and waits for all threads to finish using the "join" method. The number of lines read by each thread is accumulated to give the final result.
 
 getNumOfLinesThreadPool - This method also uses multiple threads to count the total number of lines in a group of text files. Instead of starting separate threads for each file, it uses a fixed thread pool to handle the task. The result from each thread is accumulated and returned as the final result.
+
+Part 2:
 
 ##CustomExecutor
 CustomExecutor is a custom thread pool executor in Java that extends the standard Java class ThreadPoolExecutor and adds additional functionality.
